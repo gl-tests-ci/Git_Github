@@ -83,7 +83,7 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 - [x] une fois les modification faites et [commiter et pousser](https://github.com/Tonow/GL-Test-CI#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
 
-![New pull resquest](https://github.com/Tonow/GL-Test-CI/blob/master/PR.png)
+![New pull resquest](https://github.com/Tonow/GL-Test-CI/blob/master/PR1.png)
 
 ----
 

@@ -3,8 +3,8 @@
 
 ### Instalation
 
-* Mac et Windows
-Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
+* [Mac](https://git-scm.com/download/mac) et [Windows](http://gitforwindows.org/)
+Cliquer pour télécharger ou [de façon général](https://git-scm.com/downloads) et suivre l'installation
 
 * Linux ```sudo apt-get install git```
 
@@ -47,12 +47,13 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 ----
 
 
+### Pull Request Workflow
 
-### Pull Request
+#### Initialisation du repository
 
 - [x] Fork dans l'interface graphique de github
 
-![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Capture%20d'%C3%A9cran%20de%202018-01-07%2020-49-43.png)
+![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Fork1.png)
 
 - [x] Cloner le repository original
 
@@ -68,6 +69,10 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 * origin	git@github.com:Tonow/GL-Test-CI.git".git (fetch)
 * origin	git@github.com:Tonow/GL-Test-CI.git".git (push)
 
+----
+
+#### Mettre a jour son repository local
+
 - [x] récupèrer toutes les données de ce projet que vous ne possédez pas déjà
 
 ```git fetch --all```
@@ -80,6 +85,9 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 ```git checkout -b [nom-de-la-branche-a-cree]```
 
+----
+
+#### Proposition de la pull request
 
 - [x] une fois les modification faites et [commiter et pousser](https://github.com/Tonow/GL-Test-CI#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
 

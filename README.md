@@ -47,7 +47,7 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 ###### Pull Request
 
-- [x] ![Fork dans l'interface graphique de github](./Capture\ d\'écran\ de\ 2018-01-07\ 20-49-43.png)
+- [x] ![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Capture%20d'%C3%A9cran%20de%202018-01-07%2020-49-43.png)
 
 - [x] ```git clone 	git@github.com:Tonow/GL-Test-CI.git```
 

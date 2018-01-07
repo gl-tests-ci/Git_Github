@@ -80,6 +80,11 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 ```git checkout -b [nom-de-la-branche-a-cree]```
 
+
+- [x] une fois les modification faites et [commiter et pousser](https://github.com/Tonow/GL-Test-CI#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
+
+![New pull resquest](https://github.com/Tonow/GL-Test-CI/blob/master/PR.png)
+
 ----
 
 
@@ -89,8 +94,8 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 - si deja commit:
  * ```git log -5```
  * ```git rebase -i [hash d'un commit sain] ```
- * - squash [les commit a fusionner]
- * - choix du message du commit
+>  - squash [les commit a fusionner]
+>  - choix du message du commit
  - ```git push -f```
 
 
@@ -101,6 +106,6 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 ----
 
 
-### Documentation officiel: 
+### Documentation officiel:
 
 [Branche](https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants)

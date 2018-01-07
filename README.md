@@ -1,4 +1,7 @@
-###### Instalation
+# Cour Génie Logiciel : Test/Integration continue
+## Utilisation de service de Versionning Git + Github
+
+### Instalation
 
 * Mac et Windows
 Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
@@ -12,7 +15,7 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 ----
 
 
-###### Création d'un repo si aucun existant
+### Création d'un repo si aucun existant
 
 * Initialisation d'un repository dans le dossier souhaité
 
@@ -27,7 +30,7 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 -----
 
 
-###### Iteration a chaque modification
+### Iteration a chaque modification
 
 * Ajout des fichiers souhaités dans le repository
 
@@ -45,30 +48,42 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 
 
-###### Pull Request
+### Pull Request
 
-- [x] ![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Capture%20d'%C3%A9cran%20de%202018-01-07%2020-49-43.png)
+- [x] Fork dans l'interface graphique de github
 
-- [x] ```git clone 	git@github.com:Tonow/GL-Test-CI.git```
+![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Capture%20d'%C3%A9cran%20de%202018-01-07%2020-49-43.png)
 
-- [x] ```git remote add [votre-nom-github] 	git@github.com:[votre-nom-github]/GL-Test-CI.git".git```
+- [x] Cloner le repository original
 
-> exemple git remote -vv
+```git clone 	git@github.com:Tonow/GL-Test-CI.git```
+
+- [x] Ajouter le chemin vers le Fork du repository qui est sur votre compte
+
+```git remote add [votre-nom-github] 	git@github.com:[votre-nom-github]/GL-Test-CI.git".git```
+
+> exemple après  ```git remote -vv```
 * [votre-nom-github]	git@github.com:[votre-nom-github]/GL-Test-CI.git".git (fetch)
 * [votre-nom-github] git@github.com:[votre-nom-github]/GL-Test-CI.git".git (push)
 * origin	git@github.com:Tonow/GL-Test-CI.git".git (fetch)
 * origin	git@github.com:Tonow/GL-Test-CI.git".git (push)
 
-- [x] ```git fetch --all```
+- [x] récupèrer toutes les données de ce projet que vous ne possédez pas déjà
 
-- [x] ```git pull```
+```git fetch --all```
 
-- [x] ```git checkout -b [nomDeLaBarnche]```
+- [x]  récupère généralement les données depuis le serveur qui a été initialement cloné et essaie de les fusionner dans votre branche de travail actuel
+
+```git pull```
+
+- [x] Crée une branche de travail et basculer dessus
+
+```git checkout -b [nom-de-la-branche-a-cree]```
 
 ----
 
 
-###### fusionner les commit
+#### Fusionner les commit
 [lien ohshitgit](http://ohshitgit.com/)
 
 - si deja commit:
@@ -86,19 +101,6 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 ----
 
 
+### Documentation officiel: 
 
-###### Run docker-compose
-
-* Toute une Release
-
-    ```docker-compose run --rm -e MARABUNTA_FORCE_VERSION=10.0.20 -p 8069:8069 odoo odoo --workers=0```
-
-* Juste un module
-
-    ```docker-compose run --rm -p 8069:8069 odoo odoo --workers=0 -u enfinfidu_payroll```
-
-* drop la DB
-
-    ```docker-compose run --rm odoo dropdb odoodb```
-
------
+[Branche](https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants)

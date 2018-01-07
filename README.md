@@ -47,58 +47,23 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 
 ###### Pull Request
 
-- [x] [Fork dans l'interface graphique de github](Capture\ d\'écran\ de\ 2018-01-07\ 20-49-43.png)
+- [x] [Fork dans l'interface graphique de github](./Capture\ d\'écran\ de\ 2018-01-07\ 20-49-43.png)
 
-- [x] ```git clone git@github.com:camptocamp//"[nomDuClient]".git [nomDuDossier]```
+- [x] ```git clone 	git@github.com:Tonow/GL-Test-CI.git```
 
-- [x] ```git remote add Tonow-c2c git@github.com:Tonow-c2c/"[nomDuClient]".git```
+- [x] ```git remote add [votre-nom-github] 	git@github.com:[votre-nom-github]/GL-Test-CI.git".git```
 
 > exemple git remote -vv
-* Tonow-c2c	git@github.com:Tonow-c2c/"[nomDuClient]".git (fetch)
-* Tonow-c2c	git@github.com:Tonow-c2c/"[nomDuClient]".git (push)
-* origin	git@github.com:camptocamp/"[nomDuClient]".git (fetch)
-* origin	git@github.com:camptocamp/"[nomDuClient]".git (push)
+* [votre-nom-github]	git@github.com:[votre-nom-github]/GL-Test-CI.git".git (fetch)
+* [votre-nom-github] git@github.com:[votre-nom-github]/GL-Test-CI.git".git (push)
+* origin	git@github.com:Tonow/GL-Test-CI.git".git (fetch)
+* origin	git@github.com:Tonow/GL-Test-CI.git".git (push)
 
 - [x] ```git fetch --all```
 
 - [x] ```git pull```
 
 - [x] ```git checkout -b [nomDeLaBarnche]```
-
-- [x] ```git submodule sync; init; update```
-
-- [x] ```docker-compose pull```
-
-- [x] ```docker-compose build```
-
-- [x] ```docker-compose run --rm -p 8069:8069 odoo odoo --workers=0```
-
-----
-
-
-
-###### Recuperation projet
-
-> Fork
-
-- [x] ```git clone ...```
-
-- [x]
- - ```git remote Tonow-c2c git@git...Tonow-c2c..```
- -  ```origin    git@git...origin..```
-
-
-- [x] ```git submodule sync```
-
-- [x] ```git submodule init```
-
-- [x] ```git submodule update```
-
-- [x] ```docker-compose pull```
-
-- [x] ```docker-compose build```
-
-- [x] ```docker-compose run --rm -p 8069:8069 odoo odoo --workers=0```
 
 ----
 
@@ -119,8 +84,6 @@ Telecharger [ici](https://git-scm.com/downloads) et suivre l'instalation
 ```git commit --amend```
 
 ----
-
-
 
 
 

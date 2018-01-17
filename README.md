@@ -1,7 +1,7 @@
 # Cour Génie Logiciel : Test/Integration continue
 ## Utilisation de service de Versionning Git + Github
 
-![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/images/git.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/images/github.png)
+![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/images/git-s.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/images/github-s.png)
 
 ### Instalation
 

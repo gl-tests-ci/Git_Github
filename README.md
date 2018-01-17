@@ -1,6 +1,8 @@
 # Cour Génie Logiciel : Test/Integration continue
 ## Utilisation de service de Versionning Git + Github
 
+![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/git.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/github.png)
+
 ### Instalation
 
 * [Mac](https://git-scm.com/download/mac) et [Windows](http://gitforwindows.org/)
@@ -42,7 +44,7 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 * pousser vers le repository souhaité
 
-```git push```
+```git push [MonNom] [NomBranche]```
 
 ----
 
@@ -53,15 +55,19 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 - [x] Fork dans l'interface graphique de github
 
-![Fork dans l'interface graphique de github](https://github.com/Tonow/GL-Test-CI/blob/master/Fork1.png)
+![Fork dans l'interface graphique de github](https://github.com/gl-tests-ci/Git_Github/blob/master/Fork1.png)
 
 - [x] Cloner le repository original
 
-```git clone 	git@github.com:Tonow/GL-Test-CI.git```
+```git clone https://github.com/gl-tests-ci/GL-Test-CI-Calculatrice.git```
+
+- [x] Se placer dans le bon dossier
+
+```cd GL-Test-CI-Calculatrice```
 
 - [x] Ajouter le chemin vers le Fork du repository qui est sur votre compte
 
-```git remote add [votre-nom-github] 	git@github.com:[votre-nom-github]/GL-Test-CI.git".git```
+```git remote add [votre-nom-github] 	https://github.com:[votre-nom-github]/GL-Test-CI.git".git```
 
 > exemple après  ```git remote -vv```
 * [votre-nom-github]	git@github.com:[votre-nom-github]/GL-Test-CI.git".git (fetch)
@@ -89,24 +95,29 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 #### Proposition de la pull request
 
-- [x] une fois les modification faites et [commiter et pousser](https://github.com/Tonow/GL-Test-CI#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
+- [x] une fois les modification faites et [commiter et pousser](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
 
-![New pull resquest](https://github.com/Tonow/GL-Test-CI/blob/master/PR1.png)
+![New pull resquest](https://github.com/gl-tests-ci/Git_Github/blob/master/PR1.png)
 
 - [x] choisir avec quelle branche on veux comparer la branche actuelle
 
-![choix branche a comparer](https://github.com/Tonow/GL-Test-CI/blob/master/PR2.png)
+![choix branche a comparer](https://github.com/gl-tests-ci/Git_Github/blob/master/PR2.png)
 
 - [x] Enter les informations pertinante puis cliquer sur _Create pull request_
 
 
 > - [x] 1. choisir le personne qui on le droit de contoler le code proposer "Reviewers"
 
-> - [x] si il y a des chose a changer continuer les cycles de [commit push](https://github.com/Tonow/GL-Test-CI#iteration-a-chaque-modification)
+> - [x] si il y a des chose a changer continuer les cycles de [commit push](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification)
 
 > - [x] 2. si il n'y a pas de conflit et que les autres personnes approuve le changement alors il y a possibilité de "Merger"(fusionner celle qu'on viens de faire a l'autre) les deux branche
 
-> ![Merger + Reviewe PR](https://github.com/Tonow/GL-Test-CI/blob/master/PR3.png)
+> ![Merger + Reviewe PR](https://github.com/gl-tests-ci/Git_Github/blob/master/PR3.png)
+
+
+![Recap](https://github.com/gl-tests-ci/Git_Github/blob/master/pull-request.png)
+
+![Workflow](https://github.com/gl-tests-ci/Git_Github/blob/master/branching.png)
 
 
 ----

@@ -3,16 +3,16 @@
 
 ![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/images/git-s.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/images/github-s.png)
 
-### Instalation
+### Installation
 
 * [Mac](https://git-scm.com/download/mac) et [Windows](http://gitforwindows.org/)
-Cliquer pour télécharger ou [de façon général](https://git-scm.com/downloads) et suivre l'installation
+Cliquer pour télécharger ou [de façon générale](https://git-scm.com/downloads) et suivre l'installation
 
 * Linux ```sudo apt-get install git```
 
 * Création du compte [Github](https://github.com/)
 
-* *- faclultatif* pour ceux qui veulent ce connecter par la suite en SSH voici le [lien](https://help.github.com/articles/connecting-to-github-with-ssh/)
+* *- facultatif* pour ceux qui veulent se connecter par la suite en SSH voici le [lien](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 ----
 ----
@@ -32,17 +32,17 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 -----
 
 
-### Iteration a chaque modification
+### Iteration à chaque modification
 
 * Ajout des fichiers souhaités dans le repository
 
 ```git add [le_nom_du_fichier]```
 
-* une fois l'ensemble des fichiers souhaité ajouter création du commit
+* une fois l'ensemble des fichiers ajouté, création du commit
 
 ```git commit -m "[le message décrivant le commit]"```
 
-* pousser vers le repository souhaité
+* pousser vers le repository
 
 ```git push [MonNom] [NomBranche]```
 
@@ -77,17 +77,17 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 ----
 
-#### Mettre a jour son repository local
+#### Mettre à jour son repository local
 
-- [x] récupèrer toutes les données de ce projet que vous ne possédez pas déjà
+- [x] récupérer toutes les données de ce projet que vous ne possédez pas déjà
 
 ```git fetch --all```
 
-- [x]  récupère généralement les données depuis le serveur qui a été initialement cloné et essaie de les fusionner dans votre branche de travail actuel
+- [x]  récupère généralement les données depuis le serveur qui a été initialement cloné et essaie de les fusionner dans votre branche de travail actuelle
 
 ```git pull```
 
-- [x] Crée une branche de travail et basculer dessus
+- [x] Créer une branche de travail et basculer dessus
 
 ```git checkout -b [nom-de-la-branche-a-cree]```
 
@@ -95,7 +95,7 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 #### Proposition de la pull request
 
-- [x] une fois les modification faites et [commiter et pousser](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
+- [x] une fois les modifications terminées [commiter et pousser](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification) dans l'interface web de github, créer une "New pull resquest"
 
 ![New pull resquest](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR1.png)
 
@@ -103,16 +103,16 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 ![choix branche a comparer](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR2.png)
 
-- [x] Enter les informations pertinante puis cliquer sur _Create pull request_
+- [x] Entrer les informations pertinantes puis cliquer sur _Create pull request_
 
 
-> - [x] 1. choisir le personne qui on le droit de contoler le code proposer "Reviewers"
+> - [x] 1. choisir la personne qui ont le droit de contrôler le code, proposer "Reviewers"
 
-> - [x] si il y a des chose a changer continuer les cycles de [commit push](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification)
+> - [x] si il y a des choses à changer, continuer les cycles de [commit push](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification)
 
-> - [x] 2. si il n'y a pas de conflit et que les autres personnes approuve le changement alors il y a possibilité de "Merger"(fusionner celle qu'on viens de faire a l'autre) les deux branche
+> - [x] 2. si il n'y a pas de conflit et que les autres personnes approuvent le changement, alors il y a possibilité de "Merger" les deux branches (fusionner celle que l'on viens de faire avec l'autre)
 
-> ![Merger + Reviewe PR](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR3.png)
+> ![Merger + Review PR](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR3.png)
 
 
 ![Recap](https://github.com/gl-tests-ci/Git_Github/blob/master/images/pull-request.png)
@@ -126,7 +126,7 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 #### Fusionner les commit
 [lien ohshitgit](http://ohshitgit.com/)
 
-- si deja commit:
+- si déjà commit:
  * ```git log -5```
  * ```git rebase -i [hash d'un commit sain] ```
 >  - squash [les commit a fusionner]
@@ -141,6 +141,6 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 ----
 
 
-### Documentation officiel:
+### Documentation officielle:
 
 [Branche](https://git-scm.com/book/fr/v1/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants)

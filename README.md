@@ -15,7 +15,7 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 * *- faclultatif* pour ceux qui veulent ce connecter par la suite en SSH voici le [lien](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 ----
-
+----
 
 ### Création d'un repo si aucun existant
 

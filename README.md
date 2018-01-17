@@ -1,7 +1,7 @@
 # Cour Génie Logiciel : Test/Integration continue
 ## Utilisation de service de Versionning Git + Github
 
-![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/git.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/github.png)
+![Git](https://github.com/gl-tests-ci/Git_Github/blob/master/images/git.png)       ![Github](https://github.com/gl-tests-ci/Git_Github/blob/master/images/github.png)
 
 ### Instalation
 
@@ -55,7 +55,7 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 - [x] Fork dans l'interface graphique de github
 
-![Fork dans l'interface graphique de github](https://github.com/gl-tests-ci/Git_Github/blob/master/Fork1.png)
+![Fork dans l'interface graphique de github](https://github.com/gl-tests-ci/Git_Github/blob/master/images/Fork1.png)
 
 - [x] Cloner le repository original
 
@@ -97,11 +97,11 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 - [x] une fois les modification faites et [commiter et pousser](https://github.com/gl-tests-ci/Git_Github#iteration-a-chaque-modification) dans l'interface web de github crée une "New pull resquest"
 
-![New pull resquest](https://github.com/gl-tests-ci/Git_Github/blob/master/PR1.png)
+![New pull resquest](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR1.png)
 
 - [x] choisir avec quelle branche on veux comparer la branche actuelle
 
-![choix branche a comparer](https://github.com/gl-tests-ci/Git_Github/blob/master/PR2.png)
+![choix branche a comparer](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR2.png)
 
 - [x] Enter les informations pertinante puis cliquer sur _Create pull request_
 
@@ -112,12 +112,12 @@ Cliquer pour télécharger ou [de façon général](https://git-scm.com/download
 
 > - [x] 2. si il n'y a pas de conflit et que les autres personnes approuve le changement alors il y a possibilité de "Merger"(fusionner celle qu'on viens de faire a l'autre) les deux branche
 
-> ![Merger + Reviewe PR](https://github.com/gl-tests-ci/Git_Github/blob/master/PR3.png)
+> ![Merger + Reviewe PR](https://github.com/gl-tests-ci/Git_Github/blob/master/images/PR3.png)
 
 
-![Recap](https://github.com/gl-tests-ci/Git_Github/blob/master/pull-request.png)
+![Recap](https://github.com/gl-tests-ci/Git_Github/blob/master/images/pull-request.png)
 
-![Workflow](https://github.com/gl-tests-ci/Git_Github/blob/master/branching.png)
+![Workflow](https://github.com/gl-tests-ci/Git_Github/blob/master/images/branching.png)
 
 
 ----
